@@ -1,0 +1,31 @@
+* {
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 200; */
+    font-style: normal;
+}
+h1,h2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 300 !important;
+    font-style: normal;
+}
+h1{
+    font-size: 1.875rem !important;
+    height: 36px;
+}
+div.bg-white{
+    height: 13rem;
+    transition: transform 0.3s ease;
+}
+
+div.bg-white:hover {
+    transform: scale(1.05,1.05);
+    background-color: #eff6ff;
+}
+header,#menu{
+    background: linear-gradient(90deg, rgba(29, 78, 216, 1) 0%, rgba(59, 130, 246, 1) 100%);
+}
+@media(max-width:800px){
+   a{
+    word-wrap: break-word;
+   }
+}
